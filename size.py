@@ -7,7 +7,7 @@ def main(file):
     print(mb_size, "MB")
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': # If this script is executed in terminal, then run lines below
     if len(sys.argv) == 1:
         print("""
         This is a CLI tool that calculates file sizes
