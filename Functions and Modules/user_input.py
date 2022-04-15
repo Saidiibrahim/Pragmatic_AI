@@ -7,7 +7,6 @@ False values are like "0", "N", "N0"
 """
 
 def str_to_bool(string):
-    print(f"{string}")
     string = string.lower()
     true_vals = ["1", "y", "yes"]
     false_vals = ["0", "n", "no"]
